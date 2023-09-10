@@ -26,7 +26,7 @@ const MyNavbar = () => {
 
         <div className='d-flex gap-3 align-items-baseline mx-auto'>
           <div>
-        <input type="serach" placeholder='Serach...' className='inp'/>
+        <input type="serach" placeholder='Serach...' className='inp-nav'/>
           </div>
           <div><i class="bi bi-search"></i></div> {' '}
           <div><i class="bi bi-mic-fill"></i></div>

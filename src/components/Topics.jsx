@@ -10,7 +10,7 @@ const Topics = () => {
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-signpost-2"></i></span> My Post</button>
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-postcard-fill"></i></span> My Team Post</button>
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-person"></i></span> My Follwoing Post</button>
-  <button type="button" class="heading list-main list-group-item list-group-item-action" ><span><i class="bi bi-share-fill"></i></span> Share post</button>
+  <button type="button" class="heading list-main list-group-item list-group-item-action" ><span><i class="bi bi-share-fill"></i></span>  Share post</button>
 
   <h6 className='dark heading mt-4'>Trending Topics of the week</h6>
   <div className="card card-top">
