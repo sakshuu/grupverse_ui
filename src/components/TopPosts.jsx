@@ -4,8 +4,8 @@ import { ai, csk, singhal97, space, surva } from '../assets/img/posts'
 import "./../assets/css/topPosts.css"
 
 const TopPosts = () => {
-  const [postsToShow, setPostsToShow] = useState(4); // Initial number of posts to show
-  const [isLoading, setIsLoading] = useState(false);
+  const [postsToShow, setPostsToShow] = useState(4); 
+ const [isLoading, setIsLoading] = useState(false);
 
   const post =[ 
     {
@@ -80,13 +80,32 @@ const TopPosts = () => {
     title:"Nature",
     desc:"Xyz"
   },
+  {
+    img_sm:surva,
+    img_smm:ai,
+    stitle:"suvro",
+    sectitle:"AI",
+    img_card:GPT3,
+    title:"Will Programmers Lose Their Jobs Because of GPT3",
+    desc:"Less programming jobs doesn’t mean no programming jobs at all. There will still be a need for qualified specialists to move the things forward, for ex"
+  },
+  {
+    img_sm:surva,
+    img_smm:ai,
+    stitle:"suvro",
+    sectitle:"AI",
+    img_card:networks,
+    title:"Recurrent Neural Networks",
+    desc:"Recurrent Neural Network(RNN) are a type of Neural Network where the output from previous step are fed as input to the current step. In traditional ne "
+  }
 ]
+
 const loadMorePosts = () => {
   setIsLoading(true);
   setTimeout(() => {
-    setPostsToShow(prev => prev + 4); // Increase the number of posts to show by 4
+    setPostsToShow(prev => prev + 4); 
     setIsLoading(false);
-  }, 1000); // Simulated loading time
+  }, 1000); 
 };
 useEffect(() => {
   const handleScroll = () => {
