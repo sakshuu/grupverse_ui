@@ -38,9 +38,11 @@ const MyNavbar = () => {
   <i class="nav-icons bi bi-person-circle" ></i>
   </div>
   <ul class="dropdown-menu dropdown-menu-md-end m-2">
-    <li><Link class="dropdown-item" to="/login">Login</Link></li>
-    <li><Link class="dropdown-item" to="/signup">Register</Link></li>
-    <li><a class="dropdown-item" href="#">Menu item</a></li>
+    <li><Link class="active nav-link" to="/login">Login</Link></li>
+    <li><Link class="active nav-link" to="/signup">Register</Link></li>
+    <li><Link className='active nav-link' href="#">Terms & condition</Link></li>
+    <li><Link className='active nav-link' href="#">privacy policy</Link></li>
+    <li><Link className='active nav-link' href="#">settings</Link></li>
   </ul>
       </div>
       </div>
