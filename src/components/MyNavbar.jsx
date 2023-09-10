@@ -9,9 +9,9 @@ const MyNavbar = () => {
 
   <nav class="navbar navbar-expand-lg bg-light navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <Link class="navbar-brand" to="/">
         <img src={Navlogo} alt="" width={40} /> Grupverse
-      </a>
+      </Link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
         <span class="navbar-toggler-icon"></span>
       </button>
