@@ -1,6 +1,7 @@
 import React from 'react'
 import "./../assets/css/topics.css"
-import { face, insta, linkdinlogo, software, twitter } from '../assets/img/topics'
+import { software } from '../assets/img/topics'
+import { face, linkedin, mail, twitter } from '../assets/img'
 
 const Topics = () => {
   return <>
@@ -18,20 +19,20 @@ const Topics = () => {
     {/* </div> */}
   </div>
   <p className='heading dark mt-3 mb-3'>Top software for designers</p>
-  <div className='icon-img'>
+  <div className='icon-img d-flex gap-2'>
     <div>
-    <img width={45} src={face} alt="" />
+    <img width={35} src={linkedin} alt="" />
     </div>
     <div>
-    <img width={45} src={insta} alt="" />
-    </div>
-      
-    <div>
-    <img width={45} src={linkdinlogo} alt="" />
+    <img width={35} src={mail} alt="" />
     </div>
       
     <div>
-    <img width={45} src={twitter} alt="" />
+    <img width={35} src={twitter} alt="" />
+    </div>
+      
+    <div>
+    <img width={35} src={face} alt="" />
     </div>
   </div>
 </div>
