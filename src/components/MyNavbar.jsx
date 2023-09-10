@@ -37,7 +37,7 @@ const MyNavbar = () => {
   <div  class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
   <i class="nav-icons bi bi-person-circle" ></i>
   </div>
-  <ul class="dropdown-menu dropdown-menu-md-end m-2">
+  <ul class="dropdown-menu dropdown-menu-md-end m-2 p-4">
     <li><Link class="active nav-link" to="/login">Login</Link></li>
     <li><Link class="active nav-link" to="/signup">Register</Link></li>
     <li><Link className='active nav-link' href="#">Terms & condition</Link></li>
