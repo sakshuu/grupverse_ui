@@ -6,12 +6,13 @@ import { face, insta, linkedin, mail, twitter } from '../assets/img'
 const Topics = () => {
   return <>
 <div className='mt-4'>
-
+<div className='card item-cards'>
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-file-person"></i></span> My Feed</button>
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-signpost-2"></i></span> My Post</button>
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-postcard-fill"></i></span> My Team Post</button>
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-person"></i></span> My Follwoing Post</button>
   <button type="button" class="heading list-main list-group-item list-group-item-action" ><span><i class="bi bi-share-fill"></i></span>  Share post</button>
+</div>
 
   <h6 className='dark heading mt-4 mb-3'>Trending Topics of the week</h6>
   <div className="card-top">

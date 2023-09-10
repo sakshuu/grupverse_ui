@@ -8,10 +8,14 @@
     padding: 10px;
    margin-top: 20px;
     width: 70%;
+    box-shadow: 0px 10px  5px palevioletred inset;
 }
 .card-img{
-    width: 100%;
+    width: 96%;
     border-radius: 25px;
+    margin: auto;
+    padding: auto;
+    box-shadow: 10px 10px 5px gray;
 }
 .icon-posts{
     font-size: 26px;
