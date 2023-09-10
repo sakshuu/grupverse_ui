@@ -5,8 +5,10 @@
 
 }
 .inp{
-    padding: 30px;
-    width: 400px;
+    border-radius:35px ;
+    border: 1px solid black;
+    padding: 20px;
+    width: 18rem;
 }
 .logins{
     padding: 20px;

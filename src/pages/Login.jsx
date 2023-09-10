@@ -26,14 +26,14 @@ const Login = () => {
 <div>
 
                     <div class="mt-2">
-                      <input className='inp'
+                      <input className='inp heading'
                         type="mail"
                         placeholder="Username or Email"
                       />
 
                     </div>
                     <div class="mt-2">
-                      <input className='inp'
+                      <input className='inp heading'
                         type="password"
                         placeholder="Password"
                         />

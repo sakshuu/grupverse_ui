@@ -12,18 +12,27 @@ const Topics = () => {
   <button type="button" class="heading list-main list-group-item list-group-item-action"><span><i class="bi bi-person"></i></span> My Follwoing Post</button>
   <button type="button" class="heading list-main list-group-item list-group-item-action" ><span><i class="bi bi-share-fill"></i></span>  Share post</button>
 
-  <h6 className='dark heading mt-4'>Trending Topics of the week</h6>
-  <div className="card card-top">
-    <div  className='img-main'>
-    <img src={software} width={200} alt="" />
-    </div>
+  <h6 className='dark heading mt-4 mb-3'>Trending Topics of the week</h6>
+  <div className="card-top">
+    <img src={software} width={200}  alt="" />
+    {/* </div> */}
   </div>
-  <p className='heading dark'>Top software for designers</p>
-  <div className='d-flex gap-3'>
+  <p className='heading dark mt-3 mb-3'>Top software for designers</p>
+  <div className='icon-img'>
+    <div>
     <img width={45} src={face} alt="" />
+    </div>
+    <div>
     <img width={45} src={insta} alt="" />
+    </div>
+      
+    <div>
     <img width={45} src={linkdinlogo} alt="" />
+    </div>
+      
+    <div>
     <img width={45} src={twitter} alt="" />
+    </div>
   </div>
 </div>
   </>

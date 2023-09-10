@@ -109,7 +109,7 @@ useEffect(() => {
     post.slice(0, postsToShow).map(item => <>
   <div className='center-card'>
   <div className="card card-posts">
-    <div className='d-flex gap-3 justify-content-start align-items-basline'>
+    <div className='d-flex gap-2 justify-content-start align-items-basline'>
   <img width={45} src={item.img_sm} alt="" /><span className='mt-2'>{item.stitle}</span>
   <img width={45} src={item.img_smm} alt="" /><span className='mt-2'>{item.sectitle}</span>
     </div>

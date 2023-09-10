@@ -25,28 +25,28 @@ const Signup = () => {
 <div>
 
                     <div class="mt-2">
-                      <input className='inp'
+                      <input className='inp heading'
                         type="mail"
                         placeholder="Username"
                       />
 
                     </div>
                     <div class="mt-2">
-                      <input className='inp'
+                      <input className='inp heading'
                         type="mail"
-                        placeholder="Email"
+                         placeholder="Email"
                       />
 
                     </div>
                     <div class="mt-2">
-                      <input className='inp'
+                      <input className='inp heading'
                         type="mail"
                         placeholder="Name"
                       />
 
                     </div>
                     <div class="mt-2">
-                      <input className='inp'
+                      <input className='inp heading'
                         type="password"
                         placeholder="Password"
                         />
