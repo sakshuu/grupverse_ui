@@ -1,0 +1,5 @@
+export {default as Navlogo} from "./Navlogo.png"
+export {default as linkedin } from "./linkedin.png"
+export {default as mail } from "./mail.png"
+export {default as twitter } from "./twitter.png"
+export {default as face } from "./face.png"

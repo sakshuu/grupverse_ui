@@ -1,0 +1,8 @@
+export {default as GPT3 } from "./GPT3.jpeg"
+export {default as greet } from "./greet.jpeg"
+export {default as last } from "./last.jpeg"
+export {default as meme } from "./meme.png"
+export {default as nature } from "./nature.jpeg"
+export {default as networks } from "./networks.png"
+export {default as Orion } from "./Orion.jpeg"
+export {default as Perseus } from "./Perseus.jpeg"

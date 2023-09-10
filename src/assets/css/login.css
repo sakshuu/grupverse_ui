@@ -1,0 +1,23 @@
+.card-login{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.inp{
+    padding: 30px;
+    width: 400px;
+}
+.logins{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-dark{
+    border-radius: 20px;
+}
+.nav-deco{
+    text-decoration: none;
+    color: black;
+}

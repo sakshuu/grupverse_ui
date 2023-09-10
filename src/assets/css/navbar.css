@@ -1,0 +1,16 @@
+.inp{
+    border: 2px solid black;
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    border-radius: 25px;
+}
+.nav-end{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: end;
+    gap: 4;
+}
+.nav-icons{
+    font-size: 26px;
+}

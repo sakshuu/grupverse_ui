@@ -1,0 +1,5 @@
+export {default as ai } from "./ai.png"
+export {default as csk } from "./csk.png"
+export {default as singhal97 } from "./singhal97.png"
+export {default as space } from "./space.png"
+export {default as surva } from "./surva.png"
